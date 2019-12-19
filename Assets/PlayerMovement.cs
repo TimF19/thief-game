@@ -132,7 +132,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.CompareTag("Chief"))
         { 
-            animator.SetTrigger("Hurt");
+            animator.SetTrigger("Dead");
             dead = true;
             deadSound.Play();
         }
